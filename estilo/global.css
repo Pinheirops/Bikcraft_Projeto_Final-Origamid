@@ -1,2 +1,7 @@
-@import'header.css';
-@import'introducao.css';
+@import "default.css";
+@import "cores.css";
+@import "utilidade.css";
+@import "tipografia.css";
+@import "header.css";
+@import "introducao.css";
+@import "bicicleta-lista.css";
