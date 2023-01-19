@@ -9,4 +9,7 @@
 @import "parceiro.css";
 @import 'depoimento.css';
 @import 'seguros.css';
-@import 'footer.css'
+@import 'footer.css';
+
+@import'./termos/termos.css';
+@import'./termos/bicicletas.css';
