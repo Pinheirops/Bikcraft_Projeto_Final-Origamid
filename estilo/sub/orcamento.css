@@ -33,7 +33,7 @@
   padding: 20px;
   background: #222;
   margin: 20px 0px;
-  
+
 }
 
 #bikcraft:checked ~ #orcamento-bikcraft,
@@ -59,10 +59,35 @@
 .orcamento-produto {
   border-radius: 5px 0 0 5px;
   background: var(--c12);
-  display: grid;
-  grid-template-columns: 1fr 1fr ;
   align-content: start;
   gap: 20px;
+}
+
+.orcamento-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+div.container-seguro {
+  display: flex;
+  align-items: center;
+  height:30px;
+  background-color: #2e2e2e;;
+  padding: 12px 16px;
+  width: 35%;
+  border-radius: 4px;
+}
+
+div.container-bike {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 35%;
+  background-color: #2e2e2e;;
+  padding: 12px 16px;
+  border-radius: 4px;
+
 }
 
 .orcamento-produto > * {
