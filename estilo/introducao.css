@@ -10,7 +10,7 @@ img {
 }
 
 .introducao-bg {
-  background: var(--c12);
+  background: var(--c12) url(../img/dec/bottom-left.svg) no-repeat bottom 160px left 40px;
   color: var(--c0);
   box-shadow: inset 0px -120px #fff;
 }
