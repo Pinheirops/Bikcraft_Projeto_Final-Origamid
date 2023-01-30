@@ -8,7 +8,9 @@
   <title>Bikcraft - Bicicletas Elétricas</title>
   <meta name="description" content="Bicicletas elétricas de alta precisão e qualidade, feitas sob medida para você. Explore o mundo na sua velocidade com a Bikcraft.">
 
+  <link rel="preload" href="estilo/global.css" as="style">
   <link rel="stylesheet" href="estilo/global.css">
+
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
@@ -20,7 +22,7 @@
 
   <header class="header-bg">
     <div class="container header-content">
-      <a href="./"><img src="img/bikcraft.svg" alt="Bikcraft Logo"></a>
+      <a href="./"><img src="img/bikcraft.svg" width="136" height="32" alt="Bikcraft Logo"></a>
 
       <nav aria-label="primaria">
         <ul class="header-menu font-1-m">
@@ -42,9 +44,10 @@
         <a class="botao" href="./bicicletas.html">Escolha a sua</a>
       </div>
 
-      <div class="introducao-img">
-        <img src="./img/fotos/introducao.jpg" alt="Bicicleta elétrica preta">
-      </div>
+      <picture class="introducao-img">
+        <source media="(max-width: 800px)" srcset="./img/bicicletas/nimbus.jpg">
+        <img src="./img/fotos/introducao.jpg" width="1280" height="1600" alt="Bicicleta elétrica preta">
+      </picture>
     </div>
   </main>
 
@@ -110,16 +113,16 @@
 
   <section class="parceiros" aria-label="Nossos Parceiros">
     <h2 class="container font-1-xxl">Nossos parceiros<span>.</span></h2>
-    
+
     <ul class="parceiros-list">
-      <li><img src="./img/parceiros/caravan.svg" alt=""></li>
-      <li><img src="./img/parceiros/ranek.svg" alt=""></li>
-      <li><img src="./img/parceiros/handel.svg" alt=""></li>
-      <li><img src="./img/parceiros/dogs.svg" alt=""></li>
-      <li><img src="./img/parceiros/lescone.svg" alt=""></li>
-      <li><img src="./img/parceiros/flexblog.svg" alt=""></li>
-      <li><img src="./img/parceiros/wildbeast.svg" alt=""></li>
-      <li><img src="./img/parceiros/surfbot.svg" alt=""></li>
+      <li><img src="./img/parceiros/caravan.svg" width="200" height="41" alt=""></li>
+      <li><img src="./img/parceiros/ranek.svg" width="200" height="41" alt=""></li>
+      <li><img src="./img/parceiros/handel.svg" width="200" height="41" alt=""></li>
+      <li><img src="./img/parceiros/dogs.svg" width="200" height="41" alt=""></li>
+      <li><img src="./img/parceiros/lescone.svg" width="200" height="41" alt=""></li>
+      <li><img src="./img/parceiros/flexblog.svg" width="200" height="41" alt=""></li>
+      <li><img src="./img/parceiros/wildbeast.svg" width="200" height="41" alt=""></li>
+      <li><img src="./img/parceiros/surfbot.svg" width="200" height="41" alt=""></li>
     </ul>
   </section>
 
